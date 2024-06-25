@@ -75,7 +75,7 @@ a:hover, a:focus {
 /* Skip link */ 
 .skip-link {
     position: absolute;
-    bottom: 50px;
+    top: -10px;
     left: 40%;
     background: var(--main-color);
     color: white;
@@ -904,6 +904,297 @@ img[data-img="rocket"] {
 .career-path span {
     align-self: center;
 }
+
+/* Contact */
+
+#main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+.intro-contact {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-contact h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.offices {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.offices h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+    width: 100%; 
+}
+
+.offices .office {
+    flex: 1 1 calc(50% - 20px); 
+    margin-bottom: 20px;
+}
+
+.offices .office h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.offices .office p, .offices .office a {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+
+.ambassadors {
+    margin-bottom: 40px;
+}
+
+.ambassadors h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.ambassador-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ambassador {
+    background-color: var(--light-grey-color);
+    padding: 20px;
+    border-radius: var(--small-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.ambassador-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ambassador h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.ambassador p {
+    font-size: 15px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.ambassador a {
+    font-size: 14px;
+    color: var(--main-color);
+    display: block;
+    margin-top: 5px;
+}
+
+.ambassador a:hover {
+    text-decoration: underline;
+}
+
+.flag {
+    position: relative;
+    left: 33px;
+    top: -92px;
+    height: 40px !important;
+    width: 40px !important;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Contact Page Styles */
+.contact-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-content {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.call-you {
+    width: 100px;
+    flex: 1;
+    background-color: var(--light-yellow-color);
+    padding: 20px;
+    border-radius: var(--small-radius);
+    border: 1px solid var(--light-grey-color);
+}
+
+.call-you h2 {
+    font-size: 24px;
+    color: var(--main-color);
+}
+
+.call-you p {
+    margin-bottom: 20px;
+}
+
+.call-you form {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-you fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.call-you legend {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+.call-you label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.call-you input[type="text"],
+.call-you input[type="email"],
+.call-you input[type="tel"],
+.call-you select {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--small-radius);
+    border: 1px solid var(--light-grey-color);
+    margin-bottom: 10px;
+}
+
+.call-you input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.call-you button {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: var(--small-radius);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.call-you button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Intro Section */
+.intro-contact {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.intro-contact h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.offices {
+    margin-bottom: 40px;
+}
+
+.offices h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.offices .office {
+    margin-bottom: 20px;
+}
+
+.offices .office h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+
+.offices .office p,
+.offices .office a {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.ambassadors {
+    margin-bottom: 40px;
+}
+
+.ambassadors h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.ambassador {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ambassador img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ambassador div {
+    flex: 1;
+}
+
+.ambassador h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.ambassador p {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.ambassador a {
+    font-size: 14px;
+    color: var(--main-color);
+    display: block;
+    margin-top: 5px;
+}
+
+.ambassador a:hover {
+    text-decoration: underline;
+}
+
 
 /* Footer */
 footer {
