@@ -1014,6 +1014,7 @@ img[data-img="rocket"] {
 
 .ambassador a:hover {
     text-decoration: underline;
+    color:var(--secondary-color);
 }
 
 .flag {
@@ -1047,6 +1048,7 @@ img[data-img="rocket"] {
     padding: 20px;
     border-radius: var(--small-radius);
     border: 1px solid var(--light-grey-color);
+    height: fit-content;
 }
 
 .call-you h2 {
