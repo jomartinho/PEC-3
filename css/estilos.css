@@ -1374,4 +1374,107 @@ footer nav ul li a:hover {
     .register-now {
         left: 0;
     }
+
+    /* Responsive CSS */
+@media (max-width: 1200px) {
+    .contact-page {
+        flex-direction: column;
+    }
+    .call-you {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .contact-page, .main-content, .sidebar {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .intro img {
+        width: 100%;
+        height: auto;
+    }
+
+    .steps ol, .steps article, .career-path ol {
+        padding: 0;
+    }
+
+    .ambassador-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ambassador {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ambassador img {
+        margin: 0 auto 10px;
+    }
+
+    .ambassador div {
+        width: 100%;
+    }
+
+    .offices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office {
+        margin-bottom: 20px;
+    }
+
+    .office h3, .office p, .office a {
+        text-align: center;
+    }
+
+    .call-you input[type="text"], .call-you input[type="email"], .call-you input[type="tel"], .call-you select, .call-you button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .call-you label, .call-you legend {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header nav a {
+        margin: 5px 0;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .intro h1, .steps h2, .career-path h2, .call-you h2 {
+        font-size: 24px;
+    }
+
+    .steps p, .steps li, .career-path li, .call-you p {
+        font-size: 14px;
+    }
+
+    .ambassador img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 }
